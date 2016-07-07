@@ -1,0 +1,44 @@
+
+address, article, aside,
+blockquote, body,
+center,
+dd, details, dir, div, dl, dt,
+figcaption, fieldset, figure, footer, form, frame, frameset,
+h, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html,
+main, marquee, menu,
+nav,
+ol,
+p, pre,
+section, summary,
+ul,
+xmp {
+  display: block;
+}
+
+applet, audio,
+button,
+canvas,
+embed,
+iframe, image, img, input, isindex,
+meter,
+object,
+picture, progress,
+select,
+textarea,
+video {
+  display: inline-block;
+}
+
+base,
+datalist, dialog,
+head,
+keygen,
+link,
+meta,
+nextid,
+param,
+script, source, style,
+template, title, track {
+  display: none;
+}
+

@@ -1,7 +1,29 @@
+
 :lang(af),
 :lang(nl),
 :lang(pl) {
 	quotes: '„' '”' '‚' '’';
+}
+
+:lang(ar) {
+	quotes: '“' '”';
+}
+
+:lang(az),
+:lang(el),
+:lang(eu),
+:lang(sq),
+:lang(tr) {
+	quotes: '«' '»' '‹' '›';
+}
+
+:lang(be),
+:lang(ca),
+:lang(gr),
+:lang(it),
+:lang(pt-PT),
+:lang(es) {
+	quotes: '«' '»' '“' '”';
 }
 
 :lang(bg),
@@ -20,22 +42,17 @@
 	quotes: '»' '«' '›' '‹';
 }
 
-:lang(el),
-:lang(es),
-:lang(sq),
-:lang(tr) {
-	quotes: '«' '»' '‹' '›';
-}
-
 :lang(en),
 :lang(en-GB) {
 	quotes: '‘' '’' '“' '”';
 }
 
 :lang(en-US),
+:lang(eo),
 :lang(ga),
+:lang(ko),
 :lang(pt) {
-	quotes: '‘' '’' '“' '”';
+	quotes: '“' '”' '‘' '’';
 }
 
 :lang(fi),

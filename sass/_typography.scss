@@ -15,6 +15,12 @@ h, h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif, serif;
 }
 
+html, :root {
+  font: normal 100%/1.5 serif, sans-serif;
+  hyphens: auto;
+  text-rendering: optimizeLegibility;
+}
+
 p {
   text-indent: 2em;
 }

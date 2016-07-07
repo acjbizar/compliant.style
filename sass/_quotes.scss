@@ -1,8 +1,10 @@
-
 :lang(af),
-:lang(nl),
-:lang(pl) {
-	quotes: '„' '”' '‚' '’';
+:lang(en-US),
+:lang(eo),
+:lang(ga),
+:lang(ko),
+:lang(pt) {
+	quotes: '“' '”' '‘' '’';
 }
 
 :lang(ar) {
@@ -47,14 +49,6 @@
 	quotes: '‘' '’' '“' '”';
 }
 
-:lang(en-US),
-:lang(eo),
-:lang(ga),
-:lang(ko),
-:lang(pt) {
-	quotes: '“' '”' '‘' '’';
-}
-
 :lang(fi),
 :lang(sv) {
 	quotes: '”' '”' '’' '’';
@@ -73,6 +67,11 @@
 :lang(no),
 :lang(nn) {
 	quotes: '«' '»' '‘' '’';
+}
+
+:lang(nl),
+:lang(pl) {
+	quotes: '„' '”' '‚' '’';
 }
 
 :lang(de-CH),

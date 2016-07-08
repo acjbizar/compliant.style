@@ -11,7 +11,8 @@ ol,
 p, pre,
 section, summary,
 ul,
-xmp {
+xmp
+[display=block] {
   display: block;
 }
 
@@ -25,11 +26,12 @@ object,
 picture, progress,
 select,
 textarea,
-video {
+video,
+[display=inline-block] {
   display: inline-block;
 }
 
-base,
+base, basefont,
 datalist, dialog,
 head,
 keygen,
@@ -37,24 +39,30 @@ link,
 meta,
 nextid,
 param,
+rp,
 script, source, style,
-template, title, track {
+template, title, track,
+[display=none] {
   display: none;
 }
 
-caption {
+caption,
+[display=caption] {
   display: table-caption;
 }
 
-col {
+col,
+[display=col] {
   display: table-column;
 }
 
-colgroup {
+colgroup,
+[display=colgroup] {
   display: table-column-group;
 }
 
-li {
+li,
+[display=list-item] {
   display: list-item;
 }
 
@@ -64,10 +72,6 @@ rb {
 
 rbc {
   display: ruby-base-container;
-}
-
-rp {
-  display: none;
 }
 
 rt {
@@ -82,27 +86,33 @@ ruby {
   display: ruby;
 }
 
-table {
+table,
+[display=table] {
   display: table;
 }
 
-tbody {
+tbody,
+[display=table-row-group] {
   display: table-row-group;
 }
 
 td,
-th {
+th,
+[display=table-cell] {
   display: table-cell;
 }
 
-tfoot {
+tfoot,
+[display=table-footer-group] {
   display: table-footer-group;
 }
 
-thead {
+thead,
+[display=table-header-group] {
   display: table-header-group;
 }
 
-tr {
+tr,
+[display=table-row] {
   display: table-row;
 }

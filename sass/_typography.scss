@@ -1,14 +1,24 @@
+* {
+  font-family: inherit;
+  font-size: 1em;
+  font-style: inherit;
+  font-weight: inherit;
+}
 
 abbr, acronym {
   font-variant-caps: all-small-caps;
 }
 
-b, strong {
+b, optgroup, strong {
   font-weight: bold;
 }
 
 cite, dfn, em, i, var {
   font-style: italic;
+}
+
+code, kbd, pre, samp, tt {
+  font-family: monospace;
 }
 
 h, h1, h2, h3, h4, h5, h6 {

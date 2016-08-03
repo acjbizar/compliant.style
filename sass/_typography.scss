@@ -6,6 +6,7 @@
 }
 
 abbr, acronym {
+  font-variant: small-caps;
   font-variant-caps: all-small-caps;
 }
 
@@ -23,7 +24,7 @@ cite, dfn, em, i, var {
 }
 
 code, kbd, pre, samp, tt {
-  font-family: monospace;
+  font-family: monospace, sans-serif;
 }
 
 h, h1, h2, h3, h4, h5, h6 {

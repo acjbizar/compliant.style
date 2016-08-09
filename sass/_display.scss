@@ -12,7 +12,8 @@ p, pre,
 section, summary,
 ul,
 xmp
-[display=block] {
+[display=block],
+[mode=display] {
   display: block;
 }
 
@@ -119,6 +120,7 @@ tr,
   display: table-row;
 }
 
-[display=inline] {
+[display=inline],
+[mode=inline] {
   display: inline;
 }

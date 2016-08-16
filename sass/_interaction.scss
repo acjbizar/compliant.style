@@ -1,3 +1,8 @@
-a, area, button, input, link {
+
+a, area, audio[controls], button, input, link, video[controls] {
   touch-action: manipulation;
+}
+
+a, area, button, link {
+  cursor: pointer;
 }

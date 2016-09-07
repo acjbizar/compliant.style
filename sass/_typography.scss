@@ -47,6 +47,18 @@ p:first-of-type {
     text-indent: 0;
 }
 
+s, strike {
+  text-decoration: line-through;
+}
+
 small, sub, sup {
   font-size: 75%;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
 }
